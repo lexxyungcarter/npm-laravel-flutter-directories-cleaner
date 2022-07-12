@@ -1,6 +1,8 @@
 # NPM, Laravel, and Flutter Cleaner
 A cleaner for getting rid of project development folders for laravel, node and flutter projects.
 
+![Screenshot](screenshot.png)
+
 ## Compiling
 Compile via `electron-builer`
 
