@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Clean NPM, Laravel Vendor, and Flutter build folders</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Clean NPM, Laravel Vendor, and Flutter build folders"
+    />
+    <meta
+      name="keywords"
+      content="clean npm, clean laravel vendor, clean flutter build"
+    />
+    <meta name="theme-color" content="#4285f4" />
+
+    <style>
+      body {
+        background-color: white;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      h1 {
+        text-align: center;
+        font-size: 22px;
+      }
+      p {
+        font-size: 12px;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .flex {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+      button {
+        width: 300px;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        background-color: #eee;
+        cursor: pointer;
+        color: #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Clean NPM, Laravel Vendor, and Flutter build folders</h1>
+      <p class="text-center">
+        Target Folers: <strong id="target-folder-list"></strong>
+      </p>
+      <p id="developer"></p>
+      <p>
+        We are using Node.js <span id="node-version"></span>, Chromium
+        <span id="chrome-version"></span>, and Electron
+        <span id="electron-version"></span>.
+      </p>
+
+      <br />
+      <button id="delete">Delete Target Folders</button>
+      <br />
+
+      <p>Default Folder Location: &nbsp; <strong id="sites-folder"></strong></p>
+
+      <p>
+        <strong>Sub Folders (<span id="sub-folder-list-total"></span>)</strong>
+      </p>
+      <p id="sub-folder-list"></p>
+      <p>
+        <strong
+          >Excluded Folders (<span id="excluded-list-total"></span>)</strong
+        >
+      </p>
+      <p id="excluded-folder-list"></p>
+
+      <div class="flex">
+        <div>
+          <p>
+            <strong
+              >All Target Folders (<span id="folder-list-total"></span>)</strong
+            >
+          </p>
+          <p id="folder-list"></p>
+        </div>
+        <div>
+          <p>
+            <strong>Deleted Targets</strong>
+          </p>
+          <p id="deleted-list"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
