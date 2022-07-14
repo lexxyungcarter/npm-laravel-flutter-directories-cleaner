@@ -161,7 +161,7 @@ function createWindow() {
         });
       });
 
-      event.sender.send("task-status", `${folders[i]} done`);
+      event.sender.send("task-status", `${folders[i]} -> done`);
     }
     console.log("done deleting");
     event.sender.send("btnclick-task-finished");
