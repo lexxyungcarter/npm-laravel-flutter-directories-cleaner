@@ -49,6 +49,7 @@ function createWindow() {
   // subdirectories folders
   function getSubFolders() {
     return [
+      "flutter-apps",
       "github",
       "ionic",
       "nextjs",
@@ -57,6 +58,7 @@ function createWindow() {
       "react-native",
       "typescript",
       "workbench",
+      "pegasus/resources/js/templates",
     ];
   }
 
